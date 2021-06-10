@@ -1,11 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const App = () => {
-    return (
+const App = () => (
         <div>
-            Sitto's Cheese
+            Sitto&apos;s Cheese
         </div>
     )
-}
 
 export default App
