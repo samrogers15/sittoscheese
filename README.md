@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+![GitHub Last Commit](https://img.shields.io/github/last-commit/PuppyRoadTrip/showmyshow?style=plastic)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/PuppyRoadTrip/showmyshow?style=plastic)
+![GitHub Followers](https://img.shields.io/github/followers/PuppyRoadTrip?style=social)
+![GitHub](https://img.shields.io/github/languages/top/PuppyRoadTrip/showmyshow?style=plastic)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Sitto's Cheese
+> TBD.
+ 
+## Table of contents
+* [General Info](#general-info)
+* [Technologies and Sources](#technologies-and-sources)
+* [APIs](#apis)
+* [Messaging Functionality](#messaging-functionality)
+* [Database Integration](#database-integration)
+* [Live Link](#Live-Link)
+* [Screen Shot](#Screen-Shot)
+* [Code Snippets](#code-snippets)
+* [Contact](#contact)
 
-In the project directory, you can run:
+## General Info
+TBD.
 
-### `npm start`
+## Technologies and Sources
+* ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* ![ReactJS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* ![ReactRouter](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
-### `npm test`
+* ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
 
-### `npm run build`
+* ![Material-UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* ![NPM](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+  * [Dotenv](https://www.npmjs.com/package/dotenv)
+  * [Morgan](https://www.npmjs.com/package/morgan)
+  * [Node Fetch](https://www.npmjs.com/package/node-fetch)
+  * [Mongoose](https://www.npmjs.com/package/mongoose)
 
-### `npm run eject`
+* ![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+  * Amplify
+  * Cognito
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket-dot-io&logoColor=white)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## APIs
+[![TicketMaster Discovery API](https://img.shields.io/badge/ticketmaster-026CDF?style=for-the-badge&logo=ticketmaster&logoColor=white)](https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[![Twitter API](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white
+)](https://developer.twitter.com/en)
 
-## Learn More
+## Live Link
+TBD
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Screen Shot
+TBD
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Code Snippets
 
-### Code Splitting
+TBD
+```js
+const http = require('http').Server(app);
+const io = require('socket.io')(http, {
+  cors: {
+    origin: 'https://showmyshow.herokuapp.com/',
+    methods: ['GET', 'POST'],
+    allowedHeaders: ['chat'],
+    credentials: true
+  },
+});
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact
+Created by Sam Rogers Developer. Please reach out to me for future collaboration!
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Sam Rogers](www.samrogersdev.com)
